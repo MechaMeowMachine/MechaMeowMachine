@@ -1,0 +1,11 @@
+a = input('\033[30;107mDigite algo:\033[m ')
+print('\033[31mÉ do tipo primitivo:\033[m ', type(a))
+print('\033[32mPossui apenas números?\033[m ', a.isnumeric())
+print('\033[33mPossui apenas letras?\033[m ', a.isalpha())
+print('\033[34mPossui letras ou números?\033[m ', a.isalnum())
+print('\033[35mPossui números de 0 a 9?\033[m ', a.isdecimal())
+print('\033[36mPossui todas as palavras em minúsculo?\033[m ', a.islower())
+print('\033[37mPossui apenas letras maiúsculas?\033[m ', a.isupper())
+print('\033[4mSó tem espaços?\033[m ', a.isspace())
+print('\033[1mPossui a primeira letra maiúscula e o restante minúsculas\033[m? ', a.istitle())
+
